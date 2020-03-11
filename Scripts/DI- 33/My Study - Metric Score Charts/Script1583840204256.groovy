@@ -3,7 +3,6 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.openqa.selenium.support.Color
 
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Text
 
 WebUI.openBrowser('https://dev.trialoversight.io/login')
 
@@ -42,11 +41,20 @@ Text1 = WebUI.verifyElementText(findTestObject('Object Repository/Page_Portfolio
 println(Text1)
 
 
-Compliance_RectBar_Color = WebUI.getCSSValue(findTestObject('Object Repository/Page_Portfolio/Page_Trial Oversight/Compliance_RectBar'), 'color')
+/*Compliance_RectBar_Color = WebUI.getCSSValue(findTestObject('Object Repository/Page_Portfolio/Page_Trial Oversight/Compliance_RectBar'), 'color')
 
 println(Compliance_RectBar_Color)
 
-WebUI.verifyEqual(Compliance_RectBar_Color, 'rgba(73, 74, 75, 1)')
+WebUI.verifyEqual(Compliance_RectBar_Color, 'rgba(73, 74, 75, 1)')*/
+
+BC = WebUI.getAttribute(findTestObject('Object Repository/Page_Portfolio/Page_Trial Oversight/Compliance_RectBar'), 'fill')
+
+String RGBColor1 = Color.fromString(BC).asRgba()
+
+println(RGBColor1)
+
+
+
 
 
 color = WebUI.getAttribute(findTestObject('Page_Portfolio/Page_Trial Oversight/Quality_RectBar_Color'), 'fill')
