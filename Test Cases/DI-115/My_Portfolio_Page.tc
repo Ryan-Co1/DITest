@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifies the portfolio page - Studies, Graphs, Breadcrumbs.</description>
+   <name>My_Portfolio_Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d305f0a1-518c-49f5-af55-a7ae4137f4a8</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Page_Portfolio/Page_Trial Oversight/Graph4_Bottom10Sites_Title_Txt')</defaultValue>
+      <description></description>
+      <id>1c985445-b8ca-470a-a233-919478529adb</id>
+      <masked>false</masked>
+      <name>graph4TxtLocator</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Page_Portfolio/Page_Trial Oversight/Graph3_StudiesScore_Title_Txt')</defaultValue>
+      <description></description>
+      <id>31bf55bb-88c5-4749-ac30-f33f3928f4d1</id>
+      <masked>false</masked>
+      <name>graph3TxtLocator</name>
+   </variable>
+</TestCaseEntity>

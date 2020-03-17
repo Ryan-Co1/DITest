@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Header_Compliance_Score_Val</name>
+   <tag></tag>
+   <elementGuidId>30948e78-85e7-4bdc-a718-3947b3038dbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ert-info-banner//h2[1]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>//ert-info-banner//h2[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

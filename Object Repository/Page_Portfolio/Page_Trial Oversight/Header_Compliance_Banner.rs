@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Header_Compliance_Banner</name>
+   <tag></tag>
+   <elementGuidId>0f779e31-7097-4a82-b801-7484737f79eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ert-info-banner//h2[contains(text(),'COMPLIANCE')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.site__info-banner-heading</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

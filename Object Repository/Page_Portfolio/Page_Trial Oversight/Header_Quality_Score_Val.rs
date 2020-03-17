@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Header_Quality_Score_Val</name>
+   <tag></tag>
+   <elementGuidId>e7936a92-465b-4f9b-a4c7-fbec5fef688b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ert-info-banner//h2[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.site__info-banner-heading</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

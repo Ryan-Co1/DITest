@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-select[@id='mat-select-0']/div/div[2]</value>
+         <value>#mat-select-0</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-select-0</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
