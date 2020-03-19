@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'opening the Dev environment'
 WebUI.openBrowser('https://dev.trialoversight.io/login')
 
 WebUI.click(findTestObject('THE_ERT_GLOBAL_ACCOUNT.OR/Page_The ERT Global Account/Click_On_The_Log_In_Link_On_PopUp'))
