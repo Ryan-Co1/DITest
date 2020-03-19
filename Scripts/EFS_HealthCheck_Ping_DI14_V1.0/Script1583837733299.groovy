@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'test'
 WS.comment('Check Ping API')
 
 response = WS.sendRequest(findTestObject('Postman/Check API ping', [('host') : GlobalVariable.host]))
